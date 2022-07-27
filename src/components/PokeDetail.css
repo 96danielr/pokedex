@@ -1,0 +1,40 @@
+
+
+.pokemon_card{
+    margin: 4px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.pokemon_perfil{
+    background-color: inherit;
+
+
+}
+
+.pokemon_perfil img{
+
+    background-color: inherit;
+
+}
+
+.poke-info{
+
+    width: 40%;
+    color: black;
+    background-color: inherit ;
+}
+
+h3{
+    background-color: inherit;
+    color: white;
+    font-size: 45px;
+}
+
+
+

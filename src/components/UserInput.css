@@ -1,0 +1,99 @@
+*{
+
+    background: rgb(253,253,253);
+}
+.pokeball-background{
+    background-image: url(../Pokeball.png);
+    position: fixed;
+    filter: brightness(200%);
+    z-index: 1;
+    right: -90px;
+    top: -40px;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+
+}
+
+.login_page{
+
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login_page .banner{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.banner h2{
+
+    display: inline-block;
+    font-size: 2rem;
+    text-align: right;
+    padding-top: 20px;
+    margin: 0;
+}
+.banner img{
+
+    width: 120px;
+    border-style: none;
+}
+
+.tittle{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 0 10px;
+    margin: 0;
+    justify-content: center;
+}
+
+.beginning form{
+
+    margin: 0 auto;
+    max-width: 350px;
+    position: relative;
+    box-sizing: border-box
+}
+
+.beginning input{
+
+    width: 80%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 19px;
+    color: grey;
+    box-shadow: -10px -10px 15px rgb(58 58 58 / 9%), 10px 10px 15px rgb(66 66 66 / 35%);
+    transition: .5s;
+    padding: 10px 55px 10px 15px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 1.4285em;
+
+
+}
+
+.beginning button{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    background: #40ff2f;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
